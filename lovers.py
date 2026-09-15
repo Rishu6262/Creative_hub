@@ -21,7 +21,7 @@ This project is mainly created for practicing Python programming concepts in a f
 
 Note:
 The project is intended for learning and entertainment purposes."""
-
+```
 
 
 import random
