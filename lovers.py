@@ -1,4 +1,4 @@
-text = """LOVE & RELATIONSHIP ❤️
+"""LOVE & RELATIONSHIP ❤️
 
 This is a fun beginner-friendly Python project that combines Python fundamentals with a creative relationship-themed experience.
 
@@ -21,8 +21,6 @@ This project is mainly created for practicing Python programming concepts in a f
 
 Note:
 The project is intended for learning and entertainment purposes."""
-```
-
 
 import random
 import turtle
