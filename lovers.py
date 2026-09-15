@@ -1,3 +1,29 @@
+text = """LOVE & RELATIONSHIP ❤️
+
+This is a fun beginner-friendly Python project that combines Python fundamentals with a creative relationship-themed experience.
+
+Features:
+• Accepts multiple lover names using loops and lists.
+• Asks the user whether they are currently in love.
+• Generates a random Love Score between 70% and 100%.
+• Displays random romantic quotes using random.choice().
+• Allows the user to write a personalized love message.
+• Provides a gift menu with Jewelry, Rose Flowers, Chocolates & Teddy Bear, and Hug options.
+• Includes a separate flow for users who are not currently in love.
+• Offers different reasons such as being single, focusing on a career, having a past relationship, waiting for the right person, or not being ready.
+• Allows users to write a message to their ex or choose silence.
+
+Technologies Used:
+Python, random module, lists, loops, conditional statements, user input, and string methods.
+
+Purpose:
+This project is mainly created for practicing Python programming concepts in a fun and interactive way. It can be extended further with Turtle graphics, OpenCV image-to-drawing effects, GUI popups, animations, and a smart gift recommendation system.
+
+Note:
+The project is intended for learning and entertainment purposes."""
+
+
+
 import random
 import turtle
 import cv2
