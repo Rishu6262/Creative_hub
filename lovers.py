@@ -127,5 +127,27 @@ elif l==0:
 
 else:    
     print("Your lover's name is:", name)    
+while True:
+    mood =int(input("""How feel you today ?" 
+1. Happy
+2. Sad
+3. Motivated
+4. confused
+5. Angry
+choose your mood (1-5) : """))
+    if mood==1:
+        print("😊 That's great! Keep smiling and spread positivity.")
+    elif mood==2:
+        print("😢 It's okay to feel sad sometimes. Take care of yourself.")
+    elif mood==3:
+        print("💪 Stay motivated! You can achieve anything you set your mind to.")
+    elif mood==4:
+        print("🤔 Feeling confused is normal. Take your time to figure things out.")
 
+    elif mood==5:
+        print("😡 It's okay to feel angry. Take a deep breath and try to calm")
+    elif mood==6:
+        print("❌ Invalid choice! Please select a valid mood option (1-5).")  
+    else:
+        print("do you work")
 
