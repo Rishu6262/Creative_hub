@@ -167,3 +167,44 @@ support = int(input("💪 Support for relationship : "))
 time_spend = int(input("⏰ Time spent together both side : "))
 love = int(input("❤️ Love score in a relationship : "))
 
+communication_score = communication * 0.25
+trust_score = trust * 0.25
+understanding_score = understanding * 0.20
+support_score = support * 0.15
+quality_time_score = time_spend * 0.15
+love_score = love * 0.10
+
+final_score = (communication_score + trust_score + understanding_score + support_score + quality_time_score + love_score) * 10
+
+# print(final_score)
+
+if final_score >=95:
+    result = "very strong connection and a healthy relationship. Keep nurturing it! 💖🔥"
+elif final_score >= 85:
+    reslt = "strong connection and a healthy relationship. Keep nurturing it! 💖"
+
+elif final_score >= 65:
+    result = "good connection and a healthy relationship. Keep nurturing it! 💖"
+
+elif final_score >= 40:
+    result ="Needs More Understanding 🌱"  
+
+elif final_score >=20:
+    result ="""Needs Better Communication , 
+    trust your partner
+    understandind you relationship
+    spend your quality time
+    """       
+else:
+    print("now breakup")  
+
+
+print("\n" + "=" * 45)
+print("          ❤️ RESULT ❤️")
+print("=" * 45)
+
+print(f"Pair: {your_name} ❤️ {partner_name}")
+print(f"Compatibility Score: {final_score:.1f}%")
+print(f"Analysis: {result}")            
+
+
