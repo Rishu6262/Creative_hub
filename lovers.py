@@ -151,3 +151,19 @@ choose your mood (1-5) : """))
     else:
         print("do you work")
 
+print("="* 50)
+print("      Welcome to the Love predict ❤️")
+print("="* 50)
+
+your_name =  input("Enter your name : ")
+partner_name =  input("Enter your partner's name : ")
+
+print("\nRate your relationship on a scale of 1 to 10 (1 being the lowest and 10 being the highest): ")
+
+communication = int(input("📱 Communication: "))
+trust = int(input("🤝 trust : "))
+understanding = int(input(" 🧠 Understanding: "))
+support = int(input("💪 Support for relationship : "))
+time_spend = int(input("⏰ Time spent together both side : "))
+love = int(input("❤️ Love score in a relationship : "))
+
