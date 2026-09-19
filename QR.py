@@ -18,6 +18,9 @@ A simple and practical **Python-based QR Code Generator** that allows users to c
 User enters data → Python encodes the data → QR code is generated → QR image can be scanned using any QR scanner.
 
 This project helped me understand **Python libraries, data encoding, user input handling, and file generation**.
+
+
+
 # ```````````````````````````````````````````````````````````````````````````````````````````````````````````````
 import qrcode
 name =input("Enter your name : ")
